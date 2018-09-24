@@ -8,9 +8,15 @@
         <form>
             <div>
                 <p>
-                    Email <input type="email"><br />
-                    Password <input type= "password"><br />
-                    Github Username <input type="text">
+                    <label for="my-email">
+                        Email <input type="email" id="my-email"><br />
+                    </label>
+                    <label for="my-password">
+                        Password <input type= "password" id="my-password"><br />
+                    </label>
+                    <label for="my-github Username">
+                        Github Username <input type="text" id="my-github">
+                    </label>
                 </p>
                 <p>
                     <input type="radio" name="type" value="Enterprise"> Enterprise
@@ -18,9 +24,15 @@
                     <input type="radio" name="type" value="Free"> Free
                 </p>
                 <p>    
-                    <input type="checkbox" value="rememberMe">Remember Me
+                    <label for="rememeberMe">
+                        <input type="checkbox" value="rememberMe">Remember Me
+                    </label>
                 </p>
-                <p><button type="submit">Submit</button></p>
+                <p>
+                    <label for="submitme">
+                        <button type="submit" id="submitme">Submit</button>
+                    </label>
+                </p>
             </div>
         </form>
     </body> 
